@@ -6,7 +6,7 @@
     --bs-navbar-toggler-focus-width: none !important;   
 }
 .picture{
-    width: 80%;
+    width: 60%;
 }
 .bg-body-tertiary{
     background-color:#112f6e !important;
@@ -147,7 +147,6 @@
    border-radius: 10px;  
    height: 150px;
    padding-left: 0px !important;
-   box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2) !important;
 }
 .Diploma{
     color: rgb(83, 83, 83);
