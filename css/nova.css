@@ -4,6 +4,8 @@
     background-color: transparent;
     --bs-navbar-toggler-border-color: none !important;
     --bs-navbar-toggler-focus-width: none !important;   
+    --bs-navbar-toggler-padding-y: none !important;
+    flex-wrap: nowrap !important;
 }
 .picture{
     width: 60%;
@@ -46,7 +48,7 @@
 @media(max-width:1000px){
     .d-block{
         height: 100%;
-        margin-top: 90px;
+        margin-top: 50px;
     }
 }
 .blue5{
@@ -157,7 +159,7 @@
 }
 .time{
     color: #949494;
-    padding: 20px ;
+    padding: 10px ;
 }
 .More-Info{
     color: #949494;
@@ -169,7 +171,6 @@
 }
 .Start-Learning{
     color: white;
-    font-weight: bold;
     background-color:#112f6e;
     border: none;
     border-radius: 5px;
@@ -235,8 +236,8 @@
     font-weight: bold;
 }
 .footer{
-    background-color: #1e3568;
-    padding: 10px 0px 0px 0px;
+    background-color:#112f6e;
+    padding: 30px 0px 40px 0px;
 }
 .leading{
     color: #aaaaaa;
@@ -257,4 +258,98 @@
     background-color: #273044;
     padding: 15px 0px 15px 0px ;
     color: rgb(211, 211, 211);
+}
+.Future{
+    color: white;
+}
+.freeassement{
+    color: #aaaaaa;
+    text-decoration: none;
+}
+.freeassement:hover{
+    color: white;
+}
+.quicklinks{
+    line-height: 2;
+}
+.plus{
+    color:  #aaaaaa;
+}
+.join{
+    border: none;
+    color: white;
+    background-color: #112f6e;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+}
+.first{
+    margin: 80px 0px 40px 0px;
+}
+.width{
+    width: 100%;
+}
+.ash{
+    color: gray;
+    font-size: 16px;
+}
+.ash2{
+    color: gray;
+    font-size: 16px;
+    margin-bottom: -1px;
+}
+.us{
+    color: #112f6e;
+}
+.card-body {
+    padding: 0 !important;
+}
+.collapse{
+    position: relative;
+    bottom: 16px;
+    border-radius: 0px !important;
+}
+.btn-primary{
+    background-color: transparent;
+    color: black;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 0px !important;
+    width: 100%  !important;
+    text-align: left;
+    font-weight: 550;
+}
+.card {
+    border-radius: 0px;
+    border-top: none;
+}
+.position{
+  margin-bottom: -17px;
+}
+.money{
+    font-size: 20px;
+    color: orangered;
+    font-weight: 600;
+}
+.logo2{
+    width: 70%;
+}
+.logo{
+    width: 50%;
+}
+.trust{
+    width: 90%;
+}
+@media(max-width:1000px){
+    .icon1{
+        text-align: center;
+    }
+}
+.hr{
+    color: rgb(117, 117, 117);
+}
+@media(min-width:780px){
+    .hr{
+        display: none;
+    }
 }
